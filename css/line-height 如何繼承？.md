@@ -1,0 +1,3 @@
+-   父元素的 `line-height` 寫了**具體數值**，比如`30px`，則子元素 `line-height` 繼承該值。
+-   父元素的 `line-height` 寫了**比例**，比如`1.5 或 2`，則子元素 `line-height` 也是繼承該比例。
+-   父元素的 `line-height` 寫了**百分比**，比如`200%`，則子元素 `line-height` 繼承的是父元素 `font-size * 200%` 計算出來的值。

@@ -1,0 +1,4 @@
+-   `script`：會阻礙HTML 解析，只有下載好並執行完腳本才會繼續解析HTML。
+-   `async script`：解析HTML 過程中進行腳本的異步下載，下載成功立馬執行，有可能會阻斷HTML 的解析。
+-   `defer script`：完全不會阻礙HTML 的解析，解析完成之後再按照順序執行腳本。
+- ![[Pasted image 20230110162856.png]]
